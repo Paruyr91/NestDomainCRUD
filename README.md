@@ -1,14 +1,18 @@
-docker-compose build
+step 0 - Install Docker and Docker-Compose
 
-docker-compose up -d mongodb
+step 1 - npm install
+
+step 2 - docker-compose build
+
+step 3 - docker-compose up -d mongodb
 
 
 
 For Development
 
-docker-compose up dev
+step 4 - docker-compose up dev
 
 
 For Prodaction
 
-docker-compose up prod
+step (4) - docker-compose up prod
