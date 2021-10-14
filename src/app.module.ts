@@ -21,6 +21,6 @@ import { MONGODB_URI } from './utils/constants';
     }),
   ],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService], 
 })
 export class AppModule {}
